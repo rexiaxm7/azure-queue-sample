@@ -21,6 +21,13 @@
       "queueName": "sample",
       "connection": "AzureWebJobsStorage",
       "direction": "out"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueueItem2",
+      "queueName": "trigger",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
     }
   ]
 }

@@ -3,5 +3,6 @@ module.exports = async function (context) {
 
     context.bindings.res = { body: "Hello" };
     context.bindings.outputQueueItem = ['test-message']
+    context.bindings.outputQueueItem2 = ['test-message']
 
 };
